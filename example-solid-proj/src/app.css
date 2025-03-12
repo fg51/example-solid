@@ -1,3 +1,4 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,3 +19,6 @@ body {
   background: rgb(var(--background-rgb));
   color: rgb(var(--foreground-rgb));
 }
+*/
+
+@layer reset, base, tokens, recipes, utilities;
